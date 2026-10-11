@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insiders Media — Creative &amp; performance media agency</title>
+<meta name="description" content="Insiders Media makes content, video and paid campaigns that put your brand inside the conversations your customers are already having.">
+<meta property="og:title" content="Insiders Media">
+<meta property="og:description" content="Content, video and paid media that put your brand inside the conversation.">
+<meta property="og:url" content="https://insidersmedia.xyz">
+<meta name="theme-color" content="#1b2bff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231b2bff'/%3E%3Crect x='8' y='8' width='16' height='16' fill='none' stroke='%23fff' stroke-width='3'/%3E%3Crect x='13' y='13' width='6' height='6' fill='%23ffc83d'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#1b2bff;--paper:#f3f2ff;--amber:#ffc83d;--ink:#0a0f5c;
+--display:'Bricolage Grotesque',system-ui,sans-serif;--body:'Instrument Sans',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0}
+html{background:var(--blue);scroll-behavior:smooth}
+body{font:400 1.0625rem/1.6 var(--body);color:var(--paper);background:var(--blue);-webkit-font-smoothing:antialiased}
+#scene{position:fixed;inset:0;width:100%;height:100%;display:block;z-index:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:4px}
+header{position:fixed;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:1.25rem clamp(1.25rem,4vw,3rem)}
+.logo{font:800 1.25rem var(--display);text-decoration:none;letter-spacing:-.02em;display:flex;gap:.6rem;align-items:center}
+.logo i{width:1.1rem;height:1.1rem;border:3px solid #fff;display:inline-grid;place-items:center}
+.logo i:after{content:"";width:.3rem;height:.3rem;background:var(--amber)}
+.pill{background:var(--amber);color:var(--ink);font-weight:500;text-decoration:none;padding:.55rem 1.1rem;border-radius:99px}
+.pill:hover{background:#fff}
+main{position:relative;z-index:2}
+section{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding:6rem clamp(1.25rem,6vw,5rem)}
+.wrap{max-width:46rem}
+h1,h2{font-family:var(--display);font-weight:800;letter-spacing:-.035em;line-height:.98}
+h1{font-size:clamp(3rem,9vw,7.5rem)}
+h2{font-size:clamp(2.2rem,5.5vw,4.5rem);margin-bottom:2rem}
+.lede{font-size:clamp(1.1rem,2vw,1.35rem);max-width:34rem;margin-top:1.75rem;color:#e4e3ff}
+.cta{display:inline-block;margin-top:2.25rem;background:var(--paper);color:var(--ink);font:600 1.05rem var(--display);padding:1rem 1.6rem;border-radius:99px;text-decoration:none}
+.cta:hover{background:var(--amber)}
+.list{list-style:none;padding:0;border-top:2px solid rgba(255,255,255,.55)}
+.list li{display:grid;grid-template-columns:minmax(9rem,14rem) 1fr;gap:1.5rem;padding:1.25rem 0;border-bottom:2px solid rgba(255,255,255,.55)}
+.list b{font:600 1.35rem/1.2 var(--display);letter-spacing:-.01em}
+.list span{color:#e4e3ff}
+.steps b{color:var(--amber)}
+.mail{font:800 clamp(1.8rem,6.5vw,5rem)/1 var(--display);letter-spacing:-.03em;text-decoration-thickness:4px;text-underline-offset:.15em;text-decoration-color:var(--amber);word-break:break-word}
+.mail:hover{color:var(--amber)}
+footer{margin-top:4rem;font-size:.9rem;color:#cfcdff}
+@media(max-width:640px){.list li{grid-template-columns:1fr;gap:.25rem}}
+.nogl #scene{display:none}
+.nogl html,.nogl body{background:linear-gradient(160deg,#1b2bff,#0a0f5c)}
+</style>
+</head>
+<body>
+<canvas id="scene" aria-hidden="true"></canvas>
+<header>
+  <a class="logo" href="#top" aria-label="Insiders Media home"><i></i>Insiders Media</a>
+  <a class="pill" href="#contact">Start a project</a>
+</header>
+<main id="top">
+  <section>
+    <div class="wrap">
+      <h1>Get your brand inside the conversation.</h1>
+      <p class="lede">Insiders Media is a creative and performance agency. We make the content, video and campaigns that your customers actually stop for.</p>
+      <a class="cta" href="#contact">Tell us what you're building</a>
+    </div>
+  </section>
+  <section id="services">
+    <div class="wrap">
+      <h2>What we make</h2>
+      <ul class="list">
+        <li><b>Content &amp; social</b><span>Always-on content plans, written, shot and published for the channels your audience uses.</span></li>
+        <li><b>Video production</b><span>Short-form, ads and brand films, from script to final cut.</span></li>
+        <li><b>Paid media</b><span>Meta, Google and TikTok campaigns built around cost per result, not impressions.</span></li>
+        <li><b>Brand &amp; web</b><span>Identity, landing pages and sites that load fast and convert.</span></li>
+      </ul>
+    </div>
+  </section>
+  <section id="process">
+    <div class="wrap">
+      <h2>How we work</h2>
+      <ol class="list steps">
+        <li><b>1. Listen</b><span>We learn your product, your buyers and what's already working.</span></li>
+        <li><b>2. Plan</b><span>One clear plan with goals, channels, budget and a calendar.</span></li>
+        <li><b>3. Make</b><span>Our team produces and launches. You approve, we ship.</span></li>
+        <li><b>4. Measure</b><span>Weekly reports in plain language, then we fix what's not working.</span></li>
+      </ol>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="wrap">
+      <h2>Ready when you are.</h2>
+      <a class="mail" href="mailto:hello@insidersmedia.xyz">hello@insidersmedia.xyz</a>
+      <p class="lede">Send a short note about your brand and goals. We reply within one working day.</p>
+      <footer>© <span id="y"></span> Insiders Media</footer>
+    </div>
+  </section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+document.getElementById('y').textContent=new Date().getFullYear();
+(function(){
+  if(!window.THREE){document.documentElement.classList.add('nogl');return}
+  var canvas=document.getElementById('scene'),renderer;
+  try{renderer=new THREE.WebGLRenderer({canvas:canvas,antialias:true})}catch(e){document.documentElement.classList.add('nogl');return}
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var BLUE=0x1b2bff,AMBER=0xffc83d,scene=new THREE.Scene();
+  scene.background=new THREE.Color(BLUE);scene.fog=new THREE.Fog(BLUE,8,60);
+  var cam=new THREE.PerspectiveCamera(60,1,.1,200);
+  var frames=[],DEPTH=150;
+  function rnd(a,b){return a+Math.random()*(b-a)}
+  for(var i=0;i<54;i++){
+    var land=Math.random()<.6,w=rnd(2.2,5),h=land?w*.5625:w*1.6;
+    var g=new THREE.PlaneGeometry(w,h),grp=new THREE.Group(),hot=Math.random()<.18;
+    grp.add(new THREE.LineSegments(new THREE.EdgesGeometry(g),new THREE.LineBasicMaterial({color:hot?AMBER:0xffffff,transparent:true,opacity:.85})));
+    if(Math.random()<.5)grp.add(new THREE.Mesh(g,new THREE.MeshBasicMaterial({color:hot?AMBER:0xffffff,transparent:true,opacity:hot?.55:.12,side:THREE.DoubleSide})));
+    var s=Math.random()<.5?-1:1;
+    grp.position.set(s*rnd(3.5,13),rnd(-6,6),-rnd(0,DEPTH));
+    grp.rotation.y=-s*rnd(.25,.9);grp.rotation.x=rnd(-.2,.2);
+    grp.userData={y:grp.position.y,p:rnd(0,6.28),a:rnd(.2,.6)};
+    scene.add(grp);frames.push(grp);
+  }
+  var big=new THREE.Mesh(new THREE.PlaneGeometry(16,9),new THREE.MeshBasicMaterial({color:AMBER}));
+  big.position.set(0,0,-DEPTH-12);scene.add(big);
+  var mx=0,my=0,target=0,cur=0,t0=performance.now();
+  addEventListener('pointermove',function(e){mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5},{passive:true});
+  function resize(){var w=innerWidth,h=innerHeight;renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix()}
+  addEventListener('resize',resize);resize();
+  function frame(now){
+    var max=document.documentElement.scrollHeight-innerHeight,p=max>0?scrollY/max:0;
+    target=p*DEPTH;cur=reduce?target:cur+(target-cur)*.06;
+    var vel=target-cur,t=(now-t0)/1000;
+    cam.position.set(cam.position.x+(mx*3-cam.position.x)*.05,cam.position.y+(-my*2-cam.position.y)*.05,-cur+4);
+    cam.rotation.z=reduce?0:vel*.01;
+    cam.rotation.y=-mx*.08;cam.rotation.x=-my*.05;
+    if(!reduce)frames.forEach(function(f){f.position.y=f.userData.y+Math.sin(t*.6+f.userData.p)*f.userData.a});
+    renderer.render(scene,cam);requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
